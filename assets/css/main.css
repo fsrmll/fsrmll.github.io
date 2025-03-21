@@ -1,0 +1,96 @@
+/* 基础排版与重置 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header & Footer：使用主色和粗边框体现粗犷风格 */
+  header, footer {
+    background-color: #FCD40B;
+    padding: 1.5rem;
+    text-align: center;
+    border: 4px solid #000;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* 导航菜单，采用极简设计，重视间距 */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #000;
+  }
+  
+  /* Main 区块：居中显示，采用粗边框和阴影，体现 neo-brutalism 直白风格 */
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border: 4px solid #000;
+    box-shadow: 8px 8px 0 #FCD40B;
+  }
+  
+  /* 标题和段落 */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  p {
+    margin: 1rem 0;
+  }
+  
+  /* 按钮样式，融入 shadcn 风格的简约现代元素 */
+  button, .btn {
+    background-color: #FCD40B;
+    border: 2px solid #000;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  button:hover, .btn:hover {
+    background-color: #000;
+    color: #FCD40B;
+  }
+  
+  /* 链接样式：在文本中保持清晰对比 */
+  a {
+    color: #FCD40B;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+  }
+  
+  a:hover {
+    border-color: #FCD40B;
+  }
+  
